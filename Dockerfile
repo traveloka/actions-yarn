@@ -1,9 +1,9 @@
-FROM node:11
+FROM node:10
 
-LABEL version="1.1.0"
-LABEL repository="https://github.com/nuxt/actions-yarn"
-LABEL homepage="https://github.com/nuxt/actions-yarn"
-LABEL maintainer="Xin Du (Clark) <clark.duxin@gmail.com>"
+LABEL version="1.0.0"
+LABEL repository="https://github.com/traveloka/actions-yarn"
+LABEL homepage="https://github.com/traveloka/actions-yarn"
+LABEL maintainer="Fatih Kalifa <fatih@traveloka.com>"
 
 LABEL com.github.actions.name="GitHub Action for Yarn"
 LABEL com.github.actions.description="Wraps the yarn CLI to enable common yarn commands."
